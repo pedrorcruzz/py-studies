@@ -25,7 +25,7 @@ def multiplication_table(number):
 main()
 
 
-# Example simple without functions and while true
+# Simple Example without functions and while true
 number_input = int(input("Qual número você deseja para a tabuada? "))
 
 for i in range(0, 11):
