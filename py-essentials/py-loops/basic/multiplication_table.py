@@ -23,3 +23,11 @@ def multiplication_table(number):
    return result
 
 main()
+
+
+# Example simple without functions and while true
+number_input = int(input("Qual número você deseja para a tabuada? "))
+
+for i in range(0, 11):
+    resultado = number_input * i
+    print(f"{number_input} x {i} = {resultado}")
