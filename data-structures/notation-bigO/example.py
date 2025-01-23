@@ -15,4 +15,4 @@ def sum2(n):
     return (n * (n+1)) / 2  # step 1: 3 operations in one line
 
 
-print(timeit.timeit("soma2(10)", globals=globals(), number=1000))
+print(timeit.timeit("sum2(10)", globals=globals(), number=1000))
